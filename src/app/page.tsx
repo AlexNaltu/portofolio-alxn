@@ -4,6 +4,7 @@ import MyWork from "@/components/MyWork";
 import Navbar from "@/components/navbar/Navbar";
 import Horizontal from "@/utils/Horizontal";
 import Website from "@/components/Website";
+import GetInTouch from "@/components/GetInTouch";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Horizontal />
         <MyWork />
         <Website />
+        <GetInTouch />
       </Container>
     </div>
   );

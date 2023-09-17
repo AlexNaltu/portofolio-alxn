@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function Hero() {
+function PortofolioHero() {
   return (
     <div className="my-17 mx-2 sm:my-28">
       <div className="flex flex-col gap-2 items-center mb-10 text-center">
@@ -18,20 +18,8 @@ function Hero() {
           I can work with JavaScript and TypeScript. <br /> I speak English,German and Romanian.
         </p>
       </div>
-      <div className="flex flex-col gap-3 text-center bg-purple-100/20 w-fit p-6 mx-auto">
-        <Image
-          src="/phone.png"
-          alt="/"
-          width={400}
-          height={100}
-        />
-        <h2 className="text-2xl font-bold">Front-end development</h2>
-        <p className="font-extralight text-lg">
-          Responsive websites built for an <br /> optimal user experience that <br /> achieves your business goals
-        </p>
-      </div>
     </div>
   );
 }
 
-export default Hero;
+export default PortofolioHero;

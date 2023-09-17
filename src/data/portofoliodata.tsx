@@ -1,0 +1,43 @@
+export const PortofolioData = [
+  {
+    name: "MyPLEASURE",
+    image: "/smallrestaurant.png",
+    bigImage: "/restaurant.png",
+    title: "LIVE DEMO",
+    github: "GITHUB CODE",
+    githubLink: "https://github.com/AlexNaltu/restaurant",
+    description: "A single Cars Selling Page made with React Next.Js 13,Radix-UI,MUI and Swiper.Js, styled with Tailwind.css",
+    link: "https://restaurant-practice-website.netlify.app/",
+  },
+  {
+    name: "CARSHOP",
+    image: "/smallcar.png",
+    bigImage: "/car.png",
+    title: "LIVE DEMO",
+    github: "GITHUB CODE",
+    githubLink: "https://github.com/AlexNaltu/car-shop",
+    description:
+      "A single Cars Selling Website (still in development) made with React Next.Js 13,Radix-UI,MUI and Swiper.Js, styled with Tailwind.css",
+    link: "https://car-practice-website.netlify.app",
+  },
+  {
+    name: "BROMOVIES",
+    image: "/smallmovie.png",
+    bigImage: "/movie.png",
+    title: "LIVE DEMO",
+    github: "GITHUB CODE",
+    githubLink: "https://github.com/AlexNaltu/movies",
+    description: "A single Movie Showcase Page made with React,Next.Js 13 and Radix-UI styled with Tailwind.css",
+    link: "https://alxn-movies-practice-website.netlify.app",
+  },
+  {
+    name: "Photography",
+    image: "/smallphoto.png",
+    bigImage: "/photo.png",
+    title: "NOT AVAILIBLE",
+    github: "GITHUB CODE",
+    githubLink: "https://github.com/AlexNaltu/Proiect-Final",
+    description: "Photographer Portofolio, this was my first React project.I used Next.Js 13, JavaScript and Tailwind.css",
+    link: "",
+  },
+];
