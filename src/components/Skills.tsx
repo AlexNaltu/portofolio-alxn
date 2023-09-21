@@ -27,7 +27,7 @@ function Skills() {
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <h1 className="font-black text-sm sm:text-base md:text-xl">Contact me at:</h1>
+        <h1 className="font-black text-sm sm:text-base md:text-xl">CONTACT ME AT:</h1>
         <p className="text-slate-400">naltuok@gmail.com</p>
         <p className="text-slate-400">+49 01515 7491907</p>
       </div>
