@@ -6,7 +6,7 @@ function GetInTouch() {
   return (
     <div className="flex flex-col gap-3 items-center my-10">
       <Link
-        href="#"
+        href="/about"
         className="flex items-center text-lg sm:text-2xl font-bold bg-purple-600 w-fit p-4 text-white"
       >
         Get In Touch

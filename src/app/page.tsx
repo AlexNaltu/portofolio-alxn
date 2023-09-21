@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Horizontal from "@/utils/Horizontal";
 import Website from "@/components/Website";
 import GetInTouch from "@/components/GetInTouch";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Website />
         <GetInTouch />
       </Container>
+      <Footer />
     </div>
   );
 }

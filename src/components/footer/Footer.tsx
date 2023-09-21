@@ -20,6 +20,11 @@ function Footer() {
           </h1>
         </div>
         <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-2">
+            <h1 className="text-2xl font-bold">Contact me at:</h1>
+            <p className="text-lg">naltuok@gmail.com</p>
+            <p className="text-lg">+49 01515 7491907</p>
+          </div>
           <div className="flex flex-col">
             <p className="font-bold">
               <Link

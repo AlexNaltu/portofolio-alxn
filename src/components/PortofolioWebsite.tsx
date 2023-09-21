@@ -13,7 +13,7 @@ function PortofolioWebsite() {
           return (
             <div key={index}>
               <div className="flex justify-center gap-4 my-20">
-                <div className="flex flex-col gap-2 w-fit m-3">
+                <div className="flex flex-col gap-2 max-w-[300px] m-3">
                   <h1 className="bg-purple-500 text-white text-4xl font-bold w-full py-16 text-center transition hover:scale-105 duration-500 ease-in cursor-pointer px-3">
                     {portofolio.name}
                   </h1>
@@ -34,7 +34,7 @@ function PortofolioWebsite() {
                   alt="/"
                   width={400}
                   height={100}
-                  className="hidden sm:inline-flex xl:hidden p-5 m-3 bg-purple-50"
+                  className="hidden md:inline-flex xl:hidden p-5 m-3 bg-purple-50"
                 />
                 <Image
                   src={portofolio.bigImage}
