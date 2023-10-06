@@ -11,14 +11,12 @@ export default function Home() {
   return (
     <div>
       <Container>
-        <Navbar />
         <Hero />
         <Horizontal />
         <MyWork />
         <Website />
         <GetInTouch />
       </Container>
-      <Footer />
     </div>
   );
 }

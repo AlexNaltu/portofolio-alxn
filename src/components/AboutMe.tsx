@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div className="flex flex-col-reverse lg:flex-row gap-10 my-16 md:my-32 mx-4">
       <Skills />
-      <div className="w-fit bg-purple-50 p-4 md:p-10">
+      <div className="w-fit border-2 border-white shadow-2xl p-4 md:p-10">
         <h1 className="text-sm sm:text-lg md:text-3xl font-light px-2">
           My name is Naltu Alexandru , I am 18 years old, I like drawing,exercise and building websites.I have a good eye for
           design as I myself am an artist (my drawings are on my Instagram profile).I live in Germany and as expected I finished

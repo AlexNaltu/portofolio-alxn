@@ -4,7 +4,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="flex items-start">
+    <div className="flex items-start bg-purple-200 p-8 shadow-2xl border-2 border-purple-200">
       <div className="flex flex-col gap-5 w-[200px]">
         <h1 className="font-black text-sm sm:text-base md:text-xl">MY SKILLS</h1>
         <div>
@@ -27,7 +27,7 @@ function Skills() {
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <h1 className="font-black text-sm sm:text-base md:text-xl">CONTACT ME AT:</h1>
+        <h1 className="font-black text-sm sm:text-base md:text-md">CONTACT ME AT:</h1>
         <p className="text-slate-400">naltuok@gmail.com</p>
         <p className="text-slate-400">+49 01515 7491907</p>
       </div>
